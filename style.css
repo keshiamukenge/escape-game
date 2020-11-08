@@ -1,0 +1,86 @@
+body {
+    background-color: black !important;
+    font-family: "Gotham";
+    color: #FFC300 !important;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+button {
+    background-color: black;
+    color: #FFC300;
+    border-radius: ;
+    border-style: solid 3px;
+    border-color: #FFC300;
+}
+
+#titre-escape-game {
+    margin: 250px 0px 50px 0px;
+}
+
+#texte-regles {
+    margin: 50px 0px 50px 0px;
+    line-height: 35px;
+    color: #ffa200;
+    font-size: 20px;
+}
+
+#titre-regles,
+#titre-personnages {
+    margin-top: 50px;
+}
+
+#illustration-perso-2 {
+    height: 300px;
+}
+
+#conteneur-perso-2 {
+    width: 300px;
+    line-height: 35px;
+    margin: 100px 100px 100px 100px;
+}
+
+.container{
+    margin-top: 15px;
+}
+
+#conteneur-perso-2,
+p {
+    text-align: center;
+}
+#conteneur-logo{
+    width: 15px;
+}
+
+#icon-cta-next {
+    width: 170px;
+}
+
+.svg-cta-next{
+    stroke: #FFC300;
+    stroke-width: 14;
+    stroke-miterlimit: 10;
+}
+
+.svg-texte-cta-next {
+    fill: #FFC300;
+}
+
+.svg-cercle-cta-next{
+    stroke: #FFC300;
+    stroke-width: 14;
+    stroke-miterlimit: 10;
+    -webkit-transition-duration: 1s;
+    transition-property: color width;
+}
+
+#cta-retour{
+    width: 30px;
+}
+
