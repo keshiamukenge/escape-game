@@ -84,3 +84,45 @@ p {
     width: 30px;
 }
 
+#svg-barre-progression{
+    width: 100%;
+}
+
+#colonne-mdp{
+    border-left: 3px solid #FFC300;
+}
+
+#illu-buffet{
+width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+    
+#illu-cadre{
+    width: 60px;
+    position: absolute;
+    top: 50px;
+    left: 276px;
+
+}
+
+#trait-entree{
+    border: solid 2px #FFC300;
+    position: absolute;
+    top: 313px;
+    width: 530px;
+}
+#illu-mdp{
+    width: 200px;
+}
+
+#illu-nbr{
+    width: 200px;
+}
+#illu-plante{
+    position: absolute;
+    width: 100px;
+    top: 245px;
+    left: 425px;
+}
