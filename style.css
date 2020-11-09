@@ -46,7 +46,7 @@ button {
     margin: 100px 100px 100px 100px;
 }
 
-.container{
+.container {
     margin-top: 15px;
 }
 
@@ -54,7 +54,8 @@ button {
 p {
     text-align: center;
 }
-#conteneur-logo{
+
+#conteneur-logo {
     width: 15px;
 }
 
@@ -62,7 +63,7 @@ p {
     width: 170px;
 }
 
-.svg-cta-next{
+.svg-cta-next {
     stroke: #FFC300;
     stroke-width: 14;
     stroke-miterlimit: 10;
@@ -72,7 +73,7 @@ p {
     fill: #FFC300;
 }
 
-.svg-cercle-cta-next{
+.svg-cercle-cta-next {
     stroke: #FFC300;
     stroke-width: 14;
     stroke-miterlimit: 10;
@@ -80,49 +81,78 @@ p {
     transition-property: color width;
 }
 
-#cta-retour{
+#cta-retour {
     width: 30px;
 }
 
-#svg-barre-progression{
+#svg-barre-progression {
     width: 100%;
 }
 
-#colonne-mdp{
-    border-left: 3px solid #FFC300;
-}
-
-#illu-buffet{
-width: 200px;
+#illu-buffet {
+    width: 200px;
     position: absolute;
     top: 200px;
-    left: 200px;
+    left: 500px;
 }
-    
-#illu-cadre{
+
+#illu-cadre {
     width: 60px;
     position: absolute;
     top: 50px;
-    left: 276px;
+    left: 570px;
 
 }
 
-#trait-entree{
+#trait-entree {
     border: solid 2px #FFC300;
     position: absolute;
     top: 313px;
-    width: 530px;
-}
-#illu-mdp{
-    width: 200px;
+    width: 1100px;
 }
 
-#illu-nbr{
+#svg-illu-mdp {
     width: 200px;
+    
 }
-#illu-plante{
+
+.contour-mdp {
+    fill: none;
+    stroke: #ffc300;
+    stroke-width: 15;
+    stroke-miterlimit: 10;
+}
+
+#colonne-mdp{
+    margin-top: 450px;
+}
+
+#illu-nbr {
+    width: 300px;
+    padding-top: 35px;
+}
+
+#illu-plante {
     position: absolute;
     width: 100px;
     top: 245px;
-    left: 425px;
+    left: 720px;
+}
+
+.couleur-pad-num {
+    fill: #FFC300;
+}
+
+.conteneur-num {
+    fill: none;
+}
+
+.num {
+    font-family: 'Gotham-Bold';
+    font-size: 90px;
+}
+
+#svg-illu-pad-num {
+    width: 300px;
+    margin: auto;
 }
