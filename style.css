@@ -147,12 +147,44 @@ p {
     fill: none;
 }
 
-.num {
-    font-family: 'Gotham-Bold';
-    font-size: 90px;
+#conteneur-mdp{
+    border: solid 6px;
+    padding: 30px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    margin: auto;
 }
 
-#svg-illu-pad-num {
-    width: 300px;
+#conteneur-pad-num{
+    border: solid 4px #FFC300;
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
     margin: auto;
+}
+
+.num-pad {
+    font-family: 'Gotham-Bold';
+    font-size: 50px;
+    color: black;
+    background-color: #FFC300;
+    margin: 10px;
+    width: 70px;
+    height: 40px;
+}
+
+.num-mdp{
+    width: 55px;
+    height: 66px;
+    margin: auto;
+    background-color: #FFC300;
+    border: none;
+    font-family: 'Gotham-Bold';
+    font-size: 50px;
+    color: black;
+    text-align: center;
 }
