@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a1f5dc5-4703-4ba1-88b5-106cd0a75457" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-defi1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-defi1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-personnages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-regles.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-regles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +47,7 @@
       <workItem from="1605028265724" duration="449000" />
       <workItem from="1605122395278" duration="671000" />
       <workItem from="1605176412173" duration="15721000" />
+      <workItem from="1605204687188" duration="2166000" />
     </task>
     <servers />
   </component>

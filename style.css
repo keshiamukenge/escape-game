@@ -1,9 +1,14 @@
 body {
     background-color: black !important;
-    font-family: "Gotham";
+    font-family: "Gotham", "Arial";
     color: #FFC300 !important;
 }
 
+/*
+
+        Style des éléments fixes
+
+*/
 h1 {
     font-size: 60px;
 }
@@ -12,12 +17,6 @@ h2 {
     border: solid 3px #ffc300;
     font-size: 10px;
     padding: 4px;
-}
-
-button {
-    background-color: black;
-    color: #FFC300;
-    border-color: #FFC300;
 }
 
 #titre-escape-game {
@@ -31,34 +30,12 @@ button {
     font-size: 20px;
 }
 
-#titre-regles,
-#titre-personnages {
-    margin-top: 50px;
-}
 
-#illustration-perso-2 {
-    height: 300px;
-}
+/*
 
-#conteneur-perso-2 {
-    width: 300px;
-    line-height: 35px;
-    margin: 100px 100px 100px 100px;
-}
+        Style et animations du call to action pour switcher vers une autre page
 
-.container {
-    margin-top: 15px;
-}
-
-#conteneur-perso-2,
-p {
-    text-align: center;
-}
-
-#conteneur-logo {
-    width: 15px;
-}
-
+*/
 #icon-cta-next {
     width: 170px;
 }
@@ -99,32 +76,25 @@ p {
     }
 }
 
+#cta-next-defi{
+    display: none;
+    margin: auto;
+}
+
+/*
+
+        Style et animation du call to action pour revenir en arrière
+
+ */
 #cta-retour {
     width: 30px;
 }
 
 /*
-#cta-retour:hover{
-    animation-name: anim-cta-retour;
-    animation-duration: 1000ms;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-}
 
-@keyframes anim-cta-retour {
-    from{
-        background-color: #FFC300;
-    }
-    to{
-        background-color: #FFC300;
-    }
-}
+       Style des éléments des différentes pièces de l'escape game
+
 */
-
-#svg-barre-progression {
-    width: 100%;
-}
-
 #illu-buffet {
     width: 200px;
     position: absolute;
@@ -137,7 +107,6 @@ p {
     position: absolute;
     top: 50px;
     left: 570px;
-
 }
 
 #trait-entree {
@@ -145,22 +114,6 @@ p {
     position: absolute;
     top: 313px;
     width: 1100px;
-}
-
-#svg-illu-mdp {
-    width: 200px;
-    
-}
-
-.contour-mdp {
-    fill: none;
-    stroke: #ffc300;
-    stroke-width: 15;
-    stroke-miterlimit: 10;
-}
-
-#colonne-mdp{
-    margin-top: 450px;
 }
 
 #illu-nbr {
@@ -175,12 +128,28 @@ p {
     left: 720px;
 }
 
-.couleur-pad-num {
-    fill: #FFC300;
+/*
+
+        Animation des éléments des pièce de l'escape game
+
+*/
+
+
+/*
+
+        Style du mot de passe
+
+*/
+
+.contour-mdp {
+    fill: none;
+    stroke: #ffc300;
+    stroke-width: 15;
+    stroke-miterlimit: 10;
 }
 
-.conteneur-num {
-    fill: none;
+#colonne-mdp{
+    margin-top: 450px;
 }
 
 #conteneur-mdp{
@@ -192,6 +161,37 @@ p {
     display: flex;
     flex-direction: column;
     margin: auto;
+}
+
+.num-mdp{
+    width: 200px;
+    height: 66px;
+    margin: auto;
+    background-color: #FFC300;
+    border: none;
+    font-family: 'Gotham-Bold', "Arial";
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+#svg-illu-mdp {
+    width: 200px;
+
+}
+
+
+/*
+
+        Style et animations du pad numérique
+
+*/
+.couleur-pad-num {
+    fill: #FFC300;
+}
+
+.conteneur-num {
+    fill: none;
 }
 
 #conteneur-pad-num{
@@ -215,18 +215,7 @@ p {
 }
 
 .num-pad:hover{
-    animation-name: anim-num-pad-hover;
-    animation-delay: 0s;
-    animation-duration: 200ms;
-}
-
-@keyframes anim-num-pad-hover{
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(0.7);
-    }
+    background-color: #ffa200;
 }
 
 .num-pad:active{
@@ -244,24 +233,19 @@ p {
     }
 }
 
-.num-mdp{
-    width: 200px;
-    height: 66px;
-    margin: auto;
-    background-color: #FFC300;
-    border: none;
-    font-family: 'Gotham-Bold';
-    font-size: 50px;
-    color: black;
-    text-align: center;
+
+/*
+
+        Style du bouton pour valider le mot de passe inscrit par l'utilisateur
+
+ */
+
+button {
+    background-color: black;
+    color: #FFC300;
+    border-color: #FFC300;
 }
 
-#cta-next-defi{
-display: none;
-margin: auto;
-}
-
-#bouton{
+#bouton {
     margin-top: 15px;
-
 }
