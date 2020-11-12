@@ -1,17 +1,36 @@
 //Création de l'intéractivité du pad munérique
-var numPad = [document.querySelectorAll("num-pad")];
-var numMdp1 = document.getElementById("num-utilisateur-1");
-var numMdp2 = document.getElementById("num-utilisateur-2");
-var numMdp3 = document.getElementById("num-utilisateur-3");
+var numMdp = document.getElementById("num-utilisateur");
 
-var mdpComplet = ["numMdp1", "numMdp2", "numMdp3"];
+var numPad = [...document.querySelectorAll(".num-pad")];
+console.log(numPad);
 
-numPad.addEventListener("click", function() {
-	if(mdpComplet[0] == ""){
-  	mdpComplet[0].value = numPad.value
-  } if(mdpComplet[1]){
-  	mdpComplet[1].value = numPad.value
-  }else {
-  	mdpComplet[2].value = numPad.value
-  }
+
+numPad.forEach(numPad => {
+	numPad.addEventListener("click", function actionMdp() {
+		numMdp.value = numMdp.value + numPad.innerHTML;
+	})
+	return;
 });
+
+//Correction du mot de passe
+var boutonCorrection = document.getElementById("bouton");
+var mdpDefi1 = 123;
+var ctaNext = document.getElementById("cta-next-defi");
+
+boutonCorrection.addEventListener('click', function correctMdp (){
+	if(numMdp.value == mdpDefi1){
+		alert("Le mot de passe est correct");
+		ctaNext.style.display = "block";
+	}
+	else {
+		alert("Le mot de passe est incorrect");
+	}
+});
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" id="602c0f66-401d-48a0-9dc2-1ea2d3e1b66e" customName="keshia-ecv" nameFormat="CUSTOM">
+        <option name="customName" value="keshia-ecv" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

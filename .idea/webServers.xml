@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0b7b6d3e-7f61-42e8-a61a-2ccd14c232c6" name="keshia-ecv" url="http://kmukenge.ecv-monsite.fr">
+        <fileTransfer host="kmukenge.ecv-monsite.fr" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

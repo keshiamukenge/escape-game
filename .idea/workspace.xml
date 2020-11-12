@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a1f5dc5-4703-4ba1-88b5-106cd0a75457" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-defi1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-defi1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-personnages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-regles.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-regles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k6k7auKXLKCHn1EN4ZgmlOweFr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a1f5dc5-4703-4ba1-88b5-106cd0a75457" name="Default Changelist" comment="" />
+      <created>1605028263087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605028263087</updated>
+      <workItem from="1605028265724" duration="449000" />
+      <workItem from="1605122395278" duration="671000" />
+      <workItem from="1605176412173" duration="15721000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Deployment" timestamp="1605177624336">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1605177624336" />
+    <state x="302" y="130" key="#Options" timestamp="1605177392464">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="302" y="130" key="#Options/0.0.1440.900@0.0.1440.900" timestamp="1605177392464" />
+    <state x="184" y="76" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605177648260">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="76" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1605177648260" />
+    <state x="184" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814@0.23.1440.814" timestamp="1605122448074" />
+    <state x="397" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605193429719">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1605193429719" />
+    <state x="190" y="68" width="1194" height="722" key="SettingsEditor" timestamp="1605176935009">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="190" y="68" width="1194" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605176935009" />
+    <state x="190" y="85" key="SettingsEditor/0.23.1440.823/1440.23.1920.1057@0.23.1440.823" timestamp="1605028692594" />
+    <state x="401" y="73" width="638" height="714" key="find.popup" timestamp="1605122588793">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="401" y="73" width="638" height="714" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1605122588793" />
+    <state x="625" y="187" width="774" height="525" key="ftp.server.browser" timestamp="1605177548992">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="625" y="187" width="774" height="525" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1605177548992" />
+    <state x="590" y="348" key="publish.login" timestamp="1605177561760">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="590" y="348" key="publish.login/0.0.1440.900@0.0.1440.900" timestamp="1605177561760" />
+  </component>
+</project>
