@@ -1,14 +1,15 @@
-body {
-    background-color: black !important;
-    font-family: "Gotham", "Arial";
-    color: #FFC300 !important;
-}
-
 /*
 
         Style des éléments fixes
 
 */
+
+body {
+    background-color: black !important;
+    font-family: "Gotham", "Helvetica";
+    color: #FFC300 !important;
+}
+
 h1 {
     font-size: 60px;
 }
@@ -102,11 +103,52 @@ h2 {
     left: 500px;
 }
 
+.color-buffet {
+    fill:#FFC300;
+}
+#nbr-cache{
+    font-size: 20px;
+    width: 60px;
+    position: absolute;
+    top: 71px;
+    left: 600px;
+}
+
+#astuce-cache{
+    font-size: 20px;
+    width: 20px;
+    position: absolute;
+    top: 71px;
+    right: 20px;
+    color: black;
+}
+
+#astuce-cache:hover {
+    animation-name: anime-calcul;
+    animation-delay: 0s;
+    animation-duration: 500ms;
+}
+
 #illu-cadre {
     width: 60px;
     position: absolute;
     top: 50px;
     left: 570px;
+}
+
+#illu-cadre:active{
+    animation-name: anim-cadre;
+    animation-delay: 0s;
+    animation-duration: 500ms;
+}
+
+@keyframes anim-cadre {
+    from{
+        transform: translate(0px, 0px);
+    }
+    to{
+    transform: translate(0px, 200px);
+    }
 }
 
 #trait-entree {
@@ -126,6 +168,56 @@ h2 {
     width: 100px;
     top: 245px;
     left: 720px;
+}
+
+#illu-chaussures{
+    position: absolute;
+    width: 80px;
+    top: 270px;
+    left: 60px;
+}
+
+#illu-chapeau{
+    position: absolute;
+    width: 300px;
+    top: 60px;
+    left: 800px;
+}
+
+#illu-ball{
+    position: absolute;
+    width: 80px;
+    top: 340px;
+    left: 300px;
+}
+.color-ball{
+    fill:#FFC300;
+}
+#illu-ball:hover .color-ball{
+    fill: black;
+}
+#calcul{
+    font-size: 30px;
+    font-family: "Gotham", "Arial";
+    position: absolute;
+    top: 30px;
+    left: 45px;
+    width: 100px;
+    color: black;
+}
+#calcul:hover{
+    animation-name: anime-calcul;
+    animation-delay: 0s;
+    animation-duration: 500ms;
+}
+
+@keyframes anime-calcul {
+    from{
+        color: black;
+    }
+    to{
+        color: #FFC300;
+    }
 }
 
 /*
@@ -169,7 +261,7 @@ h2 {
     margin: auto;
     background-color: #FFC300;
     border: none;
-    font-family: 'Gotham-Bold', "Arial";
+    font-family: "Gotham-Bold", "Helvetica";
     font-size: 50px;
     color: black;
     text-align: center;
@@ -205,7 +297,7 @@ h2 {
 }
 
 .num-pad {
-    font-family: 'Gotham-Bold';
+    font-family: "Gotham-Bold", "Helvetica";
     font-size: 50px;
     color: black;
     background-color: #FFC300;

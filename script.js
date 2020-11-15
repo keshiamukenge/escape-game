@@ -14,7 +14,7 @@ numPad.forEach(numPad => {
 
 //Correction du mot de passe
 var boutonCorrection = document.getElementById("bouton");
-var mdpDefi1 = 123;
+var mdpDefi1 = 1389;
 var ctaNext = document.getElementById("cta-next-defi");
 
 boutonCorrection.addEventListener('click', function correctMdp (){
