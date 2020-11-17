@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="7a1f5dc5-4703-4ba1-88b5-106cd0a75457" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/icon-cta-commencer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/icon-cta-commencer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/icon-retour.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/icon-retour.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/illustrations/illu-cadre.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/illustrations/illu-cadre.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/illustrations/illu-chaussures.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/illustrations/illu-chaussures.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/illustrations/illu-porte-manteau.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/illustrations/illu-porte-manteau.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/illustrations/illustration-ball.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/illustrations/illustration-ball.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/illustrations/illustration-buffet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/illustrations/illustration-buffet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/illustrations/illustration-plante.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/illustrations/illustration-plante.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-defi1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-defi1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-regles.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-regles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
@@ -55,7 +64,9 @@
       <workItem from="1605260492303" duration="5776000" />
       <workItem from="1605267604390" duration="1028000" />
       <workItem from="1605464529236" duration="1020000" />
-      <workItem from="1605517645097" duration="7738000" />
+      <workItem from="1605517645097" duration="8078000" />
+      <workItem from="1605567160128" duration="162000" />
+      <workItem from="1605604931735" duration="9021000" />
     </task>
     <servers />
   </component>

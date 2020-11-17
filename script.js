@@ -13,7 +13,7 @@ numPad.forEach(numPad => {
 });
 
 //Validation du mot de passe
-var boutonValider = document.getElementById("bouton");
+var boutonValider = document.getElementById("valider");
 var mdpDefi1 = 1389;
 var ctaNext = document.getElementById("cta-next-defi");
 

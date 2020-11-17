@@ -14,7 +14,7 @@
 </head>
 
 
-<body class="container-fluid">
+<body class="container-fluid p-0">
 
 <!--
 
@@ -22,27 +22,17 @@
 
 -->
 
-<div class="container">
+<header class="container-fluid">
     <div class="row align-items-middle">
         <div class="col">
             <a href="page-regles.html"><img id="cta-retour" src="img/icons/icon-retour.svg"></a>
         </div>
 
         <div class="col">
-            <p id="a-propos" class="text-center">A PROPOS</p>
+            <a href="#" class="text-decoration-none"><p id="a-propos">A PROPOS</p></a>
         </div>
     </div>
-
-    <div class="container">
-        <div class="row">
-            <h2>
-                <span id="min" >2</span>
-                :
-                <span id="sec" >00</span>
-            </h2>
-        </div>
-    </div>
-
+</header>
 
     <!--
 
@@ -50,7 +40,7 @@
              + Mot de passe et Pad numérique
 
     -->
-    <div class="container" id="lieu">
+    <div class="container-fluid" id="lieu">
         <div class="row d-flex flex-column">
             <div id="colonne-lieu" class="col">
                 <hr id="trait-entree">
@@ -102,13 +92,6 @@
 
         <div id="colonne-mdp" class="col d-flex flex-inline">
 
-            <div id="conteneur-mdp">
-                <p>Entrer un code à 4 chiffres</p>
-                <input id="num-utilisateur" class="num-mdp" value="" length="3"></input>
-                <button id="bouton">Valider</button>
-            </div>
-
-
             <div id="conteneur-pad-num">
                 <div class="num-pad">1</div>
                 <div class="num-pad">2</div>
@@ -119,6 +102,15 @@
                 <div class="num-pad">7</div>
                 <div class="num-pad">8</div>
                 <div class="num-pad">9</div>
+            </div>
+
+            <div id="conteneur-mdp">
+                <p>Entrer un code à 4 chiffres</p>
+                <input id="num-utilisateur" class="num-mdp" value="" length="3"></input>
+                <div id="correction">
+                    <img id="valider" src="img/icons/check.svg">
+                    <img id="supprimer" src="img/icons/icon-delete.svg">
+                </div>
             </div>
 
             <! --

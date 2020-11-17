@@ -5,9 +5,28 @@
 */
 
 body {
-    background-color: black !important;
+    background-color: #003f88 !important;
     font-family: "Gotham", "Helvetica";
     color: #FFC300 !important;
+}
+
+header{
+    background-color: #FFC300;
+    color: black;
+    font-family: "Gotham-Bold", "Helvetica";
+    height: 50px;
+    box-shadow: 0px 0px 8px black;
+}
+
+header a p{
+    margin-top: 15px;
+    color: black;
+    text-align: end;
+    margin-right: 20px;
+}
+header img{
+    margin-top: 8px;
+    margin-left: 20px;
 }
 
 h1 {
@@ -27,8 +46,12 @@ h2 {
 #texte-regles {
     margin: 50px 0px 50px 0px;
     line-height: 35px;
-    color: #ffa200;
+    color: #ebebeb;
     font-size: 20px;
+}
+
+#conteneur-regles{
+    margin-top: 100px;
 }
 
 
@@ -42,7 +65,7 @@ h2 {
 }
 
 .svg-cta-next {
-    stroke: #FFC300;
+    stroke: #003f88;
     stroke-width: 14;
     stroke-miterlimit: 10;
 }
@@ -96,15 +119,17 @@ h2 {
        Style des éléments des différentes pièces de l'escape game
 
 */
+
+#lieu{
+    margin: 0;
+    padding: 0;
+}
+
 #illu-buffet {
     width: 200px;
     position: absolute;
-    top: 200px;
+    top: 230px;
     left: 500px;
-}
-
-.color-buffet {
-    fill: #FFC300;
 }
 
 #nbr-cache {
@@ -117,10 +142,10 @@ h2 {
 
 #astuce-cache {
     font-size: 20px;
-    width: 20px;
+    width: 100px;
     position: absolute;
     top: 71px;
-    right: 20px;
+    right: 50px;
     color: black;
 }
 
@@ -153,10 +178,10 @@ h2 {
 }
 
 #trait-entree {
-    border: solid 2px #FFC300;
+    border: solid 2px black;
     position: absolute;
     top: 313px;
-    width: 1100px;
+    width: 100%;
 }
 
 #illu-nbr {
@@ -174,15 +199,15 @@ h2 {
 #illu-chaussures {
     position: absolute;
     width: 80px;
-    top: 270px;
+    top: 280px;
     left: 60px;
 }
 
 #illu-chapeau {
     position: absolute;
-    width: 300px;
-    top: 60px;
-    left: 800px;
+    width: 200px;
+    top: 70px;
+    left: 850px;
 }
 
 #illu-ball {
@@ -218,10 +243,10 @@ h2 {
 
 @keyframes anime-calcul {
     from {
-        color: black;
+        color: #003f88;
     }
     to {
-        color: #FFC300;
+        color: #ebebeb;
     }
 }
 
@@ -247,10 +272,14 @@ h2 {
 
 #colonne-mdp {
     margin-top: 450px;
+    background-color: black;
+    box-shadow: 0px 0px 8px black;
+    width: 1000px;
 }
 
 #conteneur-mdp {
-    border: solid 6px;
+    border-radius: 15px;
+   /* box-shadow: 0px 0px 5px black; */
     padding: 30px;
     width: 300px;
     height: 200px;
@@ -258,6 +287,7 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: auto;
+    background-color: black;
 }
 
 .num-mdp {
@@ -292,13 +322,14 @@ h2 {
 }
 
 #conteneur-pad-num {
-    border: solid 4px #FFC300;
+    border-radius: 15px;
     width: 330px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     margin: auto;
+    background-color: black;
 }
 
 .num-pad {
@@ -312,7 +343,7 @@ h2 {
 }
 
 .num-pad:hover {
-    background-color: #ffa200;
+    background-color: #ebebeb;
 }
 
 .num-pad:active {
@@ -337,15 +368,11 @@ h2 {
 
  */
 
-button {
-    background-color: black;
-    color: #FFC300;
-    border-color: #FFC300;
+#correction img{
+    width: 40px;
+    margin-top: 10px;
 }
 
-#bouton {
-    margin-top: 15px;
-}
 
 /*
 
