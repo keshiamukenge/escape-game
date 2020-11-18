@@ -5,14 +5,14 @@
 */
 
 body {
-    background-color: #003f88 !important;
+    background-color: #cccccc !important;
     font-family: "Gotham", "Helvetica";
-    color: #FFC300 !important;
+    color: #001233 !important;
 }
 
 header{
-    background-color: #FFC300;
-    color: black;
+    background-color: #001233;
+    color: #cccccc;
     font-family: "Gotham-Bold", "Helvetica";
     height: 50px;
     box-shadow: 0px 0px 8px black;
@@ -20,7 +20,7 @@ header{
 
 header a p{
     margin-top: 15px;
-    color: black;
+    color: #cccccc;
     text-align: end;
     margin-right: 20px;
 }
@@ -46,8 +46,9 @@ h2 {
 #texte-regles {
     margin: 50px 0px 50px 0px;
     line-height: 35px;
-    color: #ebebeb;
+    color: #001233;
     font-size: 20px;
+    font-family: "Gotham", "Helvetica";
 }
 
 #conteneur-regles{
@@ -65,13 +66,14 @@ h2 {
 }
 
 .svg-cta-next {
-    stroke: #003f88;
+    fill: #cccccc;
+    stroke: #001233;
     stroke-width: 14;
     stroke-miterlimit: 10;
 }
 
 .svg-texte-cta-next {
-    fill: #FFC300;
+    fill: #001233;
 }
 
 #icon-cta-next:hover .svg-cercle-cta-next {
@@ -82,7 +84,8 @@ h2 {
 }
 
 .svg-cercle-cta-next {
-    stroke: #FFC300;
+    stroke: #001233;
+    fill: #cccccc;
     stroke-width: 14;
     stroke-miterlimit: 10;
 }
@@ -126,10 +129,10 @@ h2 {
 }
 
 #illu-buffet {
-    width: 200px;
+    width: 180px;
     position: absolute;
-    top: 230px;
-    left: 500px;
+    top: 190px;
+    left: 662px;
 }
 
 #nbr-cache {
@@ -138,6 +141,7 @@ h2 {
     position: absolute;
     top: 71px;
     left: 600px;
+    color: black;
 }
 
 #astuce-cache {
@@ -146,7 +150,7 @@ h2 {
     position: absolute;
     top: 71px;
     right: 50px;
-    color: black;
+    color: #cccccc;
 }
 
 #astuce-cache:hover {
@@ -193,36 +197,37 @@ h2 {
     position: absolute;
     width: 100px;
     top: 245px;
-    left: 720px;
+    left: 944px;
 }
 
 #illu-chaussures {
     position: absolute;
     width: 80px;
     top: 280px;
-    left: 60px;
+    left: 150px;
 }
 
 #illu-chapeau {
     position: absolute;
-    width: 200px;
-    top: 70px;
-    left: 850px;
+    width: 120px;
+    top: 122px;
+    left: 1180px;
 }
 
 #illu-ball {
     position: absolute;
     width: 80px;
-    top: 340px;
-    left: 300px;
+    top: 310px;
+    left: 420px;
+    fill: white;
 }
 
 .color-ball {
-    fill: #FFC300;
+    fill: black;
 }
 
-#illu-ball:hover .color-ball {
-    fill: black;
+#illu-ball:hover .color-ball, #illu-ball{
+    fill: #cccccc;
 }
 
 #calcul {
@@ -232,7 +237,7 @@ h2 {
     top: 30px;
     left: 45px;
     width: 100px;
-    color: black;
+    color: #cccccc;
 }
 
 #calcul:hover {
@@ -243,10 +248,10 @@ h2 {
 
 @keyframes anime-calcul {
     from {
-        color: #003f88;
+        color: #cccccc;
     }
     to {
-        color: #ebebeb;
+        color: black;
     }
 }
 
@@ -271,15 +276,14 @@ h2 {
 }
 
 #colonne-mdp {
-    margin-top: 450px;
-    background-color: black;
+    margin: 490px auto 0px auto;
+    background-color: #001233;
     box-shadow: 0px 0px 8px black;
     width: 1000px;
+    border-radius: 15px;
 }
 
 #conteneur-mdp {
-    border-radius: 15px;
-   /* box-shadow: 0px 0px 5px black; */
     padding: 30px;
     width: 300px;
     height: 200px;
@@ -287,14 +291,16 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    background-color: black;
+    background-color: #001233;
+    color: #cccccc;
+    font-family: "Gotham", "Helvetica";
 }
 
 .num-mdp {
     width: 200px;
     height: 66px;
     margin: auto;
-    background-color: #FFC300;
+    background-color: #cccccc;
     border: none;
     font-family: "Gotham-Bold", "Helvetica";
     font-size: 50px;
@@ -304,7 +310,6 @@ h2 {
 
 #svg-illu-mdp {
     width: 200px;
-
 }
 
 
@@ -313,30 +318,26 @@ h2 {
         Style et animations du pad numérique
 
 */
-.couleur-pad-num {
-    fill: #FFC300;
-}
 
 .conteneur-num {
     fill: none;
 }
 
 #conteneur-pad-num {
-    border-radius: 15px;
     width: 330px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     margin: auto;
-    background-color: black;
+    background-color: #001233;
 }
 
 .num-pad {
     font-family: "Gotham-Bold", "Helvetica";
     font-size: 50px;
     color: black;
-    background-color: #FFC300;
+    background-color: #cccccc;
     margin: 10px;
     width: 70px;
     height: 40px;
@@ -383,11 +384,13 @@ h2 {
 .indices {
     width: 500px;
     position: absolute;
-    background-color: #FFC300;
+    background-color: #001233;
     text-align: center;
-    color: black;
-    right: 300px;
-    top: -462px;
+    color: #cccccc;
+    right: 250px;
+    top: -50px;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 #indice1 {
