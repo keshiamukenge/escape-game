@@ -18,12 +18,31 @@ header{
     box-shadow: 0px 0px 8px black;
 }
 
-header a p{
+#a-propos{
     margin-top: 15px;
     color: #cccccc;
     text-align: end;
     margin-right: 20px;
 }
+
+#a-propos:hover {
+    animation-name: bounce;
+    animation-duration: 1000ms;
+}
+
+#quitter{
+    color: #cccccc;
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Gotham-Bold", "Helvetica";
+}
+
+#quitter:hover{
+    animation-name: bounce;
+    animation-duration: 1000ms;
+}
+
+
 header img{
     margin-top: 8px;
     margin-left: 20px;
@@ -34,7 +53,6 @@ h1 {
 }
 
 h2 {
-    border: solid 3px #ffc300;
     font-size: 10px;
     padding: 4px;
 }
@@ -255,12 +273,6 @@ h2 {
     }
 }
 
-/*
-
-        Animation des éléments des pièce de l'escape game
-
-*/
-
 
 /*
 
@@ -403,4 +415,56 @@ h2 {
 
 #indice3 {
     display: none;
+}
+
+
+/*
+
+       "A propos"
+
+*/
+
+#block-apropos{
+    height: 500px;
+    background-color: black;
+}
+
+
+/*
+
+        Animation des liens : "A Propos" & "Quitter"
+
+ */
+
+
+
+
+
+/*
+
+        Dernière page : Avis
+
+ */
+
+#conteneur-avis{
+    background-color: #001233;
+    color: white;
+    padding: 3rem;
+    border-radius: 15px;
+    font-family: "Gotham", "Helvetica";
+    box-shadow: 0px 0px 8px black;
+    margin: 5rem auto 0 auto;
+    width: 550px;
+    text-align: center;
+}
+
+#pseudo{
+    width: 200px;
+    margin: 15px auto 15px auto;
+}
+
+#message{
+    height: 200px;
+    width: 400px;
+    margin: 15px auto 15px auto;
 }
