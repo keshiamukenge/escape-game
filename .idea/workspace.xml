@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a1f5dc5-4703-4ba1-88b5-106cd0a75457" name="Default Changelist" comment="Modifiaction du design et de la mise en page">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/icon-delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/icon-delete.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-defi1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-defi1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-defi2.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-defi2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-regles.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-regles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +85,10 @@
       <workItem from="1605651818761" duration="5230000" />
       <workItem from="1606479643631" duration="7374000" />
       <workItem from="1606672886847" duration="4276000" />
+      <workItem from="1606727903099" duration="2663000" />
+      <workItem from="1606812115413" duration="3903000" />
+      <workItem from="1606844035335" duration="1911000" />
+      <workItem from="1608295769369" duration="6924000" />
     </task>
     <task id="LOCAL-00001" summary="Modifiaction du design et de la mise en page">
       <created>1605615199541</created>
@@ -110,14 +120,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Modifiaction du design et de la mise en page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Deployment" timestamp="1605177624336">
+    <state x="320" y="115" key="#Deployment" timestamp="1608297676221">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1605177624336" />
-    <state x="302" y="130" key="#Options" timestamp="1605177392464">
+    <state x="320" y="115" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1608297676221" />
+    <state x="302" y="130" key="#Options" timestamp="1608296280026">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="302" y="130" key="#Options/0.0.1440.900@0.0.1440.900" timestamp="1605177392464" />
+    <state x="302" y="130" key="#Options/0.0.1440.900@0.0.1440.900" timestamp="1608296280026" />
+    <state x="304" y="102" key="#SSH_Configurations" timestamp="1608297578039">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="304" y="102" key="#SSH_Configurations/0.0.1440.900@0.0.1440.900" timestamp="1608297578039" />
     <state x="184" y="76" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605177648260">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -141,13 +155,13 @@
     </state>
     <state x="401" y="55" width="638" height="790" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1606481904168" />
     <state x="401" y="73" width="638" height="714" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1605122588793" />
-    <state x="625" y="187" width="774" height="525" key="ftp.server.browser" timestamp="1605177548992">
+    <state x="625" y="187" width="774" height="525" key="ftp.server.browser" timestamp="1608297623900">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="625" y="187" width="774" height="525" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1605177548992" />
-    <state x="590" y="348" key="publish.login" timestamp="1605177561760">
+    <state x="625" y="187" width="774" height="525" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1608297623900" />
+    <state x="590" y="348" key="publish.login" timestamp="1608296081183">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="590" y="348" key="publish.login/0.0.1440.900@0.0.1440.900" timestamp="1605177561760" />
+    <state x="590" y="348" key="publish.login/0.0.1440.900@0.0.1440.900" timestamp="1608296081183" />
   </component>
 </project>
