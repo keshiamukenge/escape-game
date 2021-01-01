@@ -1,0 +1,18 @@
+<svg enable-background="new 0 0 650.9 448.2" viewBox="0 0 650.9 448.2" xmlns="http://www.w3.org/2000/svg">
+    <g id="colorf" fill="#b5e4ea" stroke-miterlimit="10" stroke-width="2">
+        <path d="m445.5 22.8h178.9v405.9h-178.9z" stroke="#000"/>
+        <g stroke="#fff">
+            <path d="m482.6 144.2 67.8-47.9"/>
+            <path d="m486.5 242.2 96.9-68.4"/>
+            <path d="m534.2 312.6 57.8-40.7"/>
+        </g>
+        <path d="m240.8 22.8h178.9v405.9h-178.9z" stroke="#000"/>
+        <path d="m277.9 144.2 67.8-47.9" stroke="#fff"/>
+        <path d="m281.9 242.2 96.8-68.4" stroke="#fff"/>
+        <path d="m329.6 312.6 57.7-40.7" stroke="#fff"/>
+        <path d="m36.2 22.8h178.9v405.9h-178.9z" stroke="#000"/>
+        <path d="m73.3 144.2 67.8-47.9" stroke="#fff"/>
+        <path d="m77.2 242.2 96.9-68.4" stroke="#fff"/>
+        <path d="m124.9 312.6 57.8-40.7" stroke="#fff"/>
+    </g>
+</svg>
