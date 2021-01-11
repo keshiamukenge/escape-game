@@ -1,3 +1,16 @@
+//Affichage page A propos au clique
+var lienApropos = document.getElementById("a-propos");
+var contenuApropos = document.getElementById("contenu-apropos");
+
+lienApropos.addEventListener("click", () => {
+	if(contenuApropos.style.visibility != "visible"){
+		contenuApropos.style.visibility = "visible";
+	} else {
+		contenuApropos.style.visibility = "hidden";
+	}	
+});
+
+
 //Création de l'intéractivité du pad munérique
 var numMdp = document.getElementById("num-utilisateur");
 
@@ -27,6 +40,7 @@ boutonValider.addEventListener('click', function correctMdp(){
 });
 
 //Affichage des indices selon un temps donnée
+//Je devrais utiliser une boucle forEach pour factoriser ce bout de code mais je n'ai pas réussi à la mettre en place
 var indices = [document.querySelector("#indice1"), document.querySelector("#indice2"), document.querySelector("#indice3")];
 
 setTimeout(function() {
@@ -49,13 +63,3 @@ setTimeout(function() {
 setTimeout(function() {
 	indices[2].style.display = "none";
 }, 85000);
-
-
-
-//Affichage page A propos au clique
-var lienApropos = document.getElementById("a-propos");
-var contenuApropos = document.getElementById("contenu-apropos");
-
-lienApropos.addEventListener("click", function (){
-	contenuApropos.style.visibility = "visible";
-})

@@ -8,6 +8,7 @@ body {
     background-color: #143642 !important;
     font-family: "Gotham", "Helvetica";
     color: #FFFFFF !important;
+    z-index: auto;
 }
 
 header{
@@ -25,6 +26,10 @@ header{
     margin-right: 20px;
 }
 
+#a-propos:hover{
+    color: #143642 !important;
+}
+
 #quitter{
     color: #B76935;
     margin-top: 15px;
@@ -33,8 +38,7 @@ header{
 }
 
 #quitter:hover{
-    animation-name: bounce;
-    animation-duration: 1000ms;
+    color: #143642 !important;
 }
 
 
@@ -383,7 +387,7 @@ h2 {
 }
 
 .num-pad:hover, #correction img:hover {
-    background-color: #ebebeb;
+    background-color: #B76935;
 }
 
 .num-pad:active, #correction img:active {
@@ -454,25 +458,53 @@ h2 {
 */
 
 #contenu-apropos{
-    height: 700px;
-    background-color: black;
-    position: absolute;
+    height: 750px;
+    background-color: #143642;
+    position: fixed;
     width: 100%;
     margin: 0;
     padding: 0;
     visibility: hidden;
+    z-index: 100;
 }
 
+#a-propos:focus, #contenu-apropos{
+    animation-name: "anim-apropos";
+    animation-duration: 1000ms;
+}
 
-/*
+@keyframes anim-apropos{
+    from{
+        transform : translateY(10px);
+    } to {
+        transform : translateY(50px);
+    }
+}
 
-        Animation des liens : "A Propos" & "Quitter"
+#para1-apropos, #para2-apropos{
+    font-family: "Gotham";
+    width: 500px;
+    
+}
+#para1-apropos{
+    margin: 2em 0 0 150px;
+}   
 
- */
+#para2-apropos{
+    margin: 2em  0 0 800px;
+}
 
+#titre1-apropos{
+    margin: 1em 0 0 130px;
+    border-bottom: solid 2px white;
+    width: 300px;
+}
 
-
-
+#titre2-apropos{
+    margin: 2em  0 0 750px;
+    border-bottom: solid 2px white;
+    width: 300px;
+}
 
 /*
 
