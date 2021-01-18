@@ -1,17 +1,31 @@
 /*
 
+        Importation de la font "Gotham"
+
+*/
+
+@font-face {
+    font-family: "Gotham";
+    src: url("font/Gotham-Font/Gotham-Black.otf") format("otf");
+    src: url("font/Gotham-Font/Gotham-Bold.otf") format("otf");
+    src: url("font/Gotham-Font/Gotham-Light.otf") format("otf");
+    src: url("font/Gotham-Font/Gotham-BookItalic.otf") format("otf");
+}
+
+/*
+
         Style des éléments fixes
 
 */
 
 body {
     background-color: #143642 !important;
-    font-family: "Gotham", "Helvetica";
+    font-family: "Gotham-Book-Italic", "Helvetica";
     color: #FFFFFF !important;
     z-index: auto;
 }
 
-header{
+header {
     background-color: #FFFFFF;
     color: #B76935;
     font-family: "Gotham-Bold", "Helvetica";
@@ -19,30 +33,30 @@ header{
     box-shadow: 0px 0px 8px black;
 }
 
-#a-propos{
+#a-propos {
     margin-top: 15px;
     color: #B76935 !important;
     text-align: end;
     margin-right: 20px;
 }
 
-#a-propos:hover{
+#a-propos:hover {
     color: #143642 !important;
 }
 
-#quitter{
+#quitter {
     color: #B76935;
     margin-top: 15px;
     text-align: center;
     font-family: "Gotham-Bold", "Helvetica";
 }
 
-#quitter:hover{
+#quitter:hover {
     color: #143642 !important;
 }
 
 
-header img{
+header img {
     margin-top: 8px;
     margin-left: 20px;
 }
@@ -68,7 +82,7 @@ h2 {
     font-family: "Gotham", "Helvetica";
 }
 
-#conteneur-regles{
+#conteneur-regles {
     margin-top: 100px;
 }
 
@@ -117,6 +131,7 @@ h2 {
     from {
         transform: translate(0%, 0%);
     }
+
     to {
         transform: translate(72%, 0%);
     }
@@ -143,7 +158,7 @@ h2 {
 
 */
 
-#lieu{
+#lieu {
     margin: 0;
     padding: 0;
 }
@@ -197,6 +212,7 @@ h2 {
     from {
         transform: translate(0px, 0px);
     }
+
     to {
         transform: translate(0px, 200px);
     }
@@ -235,21 +251,27 @@ h2 {
     left: 390px;
 }
 
-.couleurs-fenetre{
+.couleurs-fenetre {
     animation-name: anim-fenetre;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes anim-fenetre{
-    25%{
+@keyframes anim-fenetre {
+    25% {
         fill: #b5e4ea;
-    } 50%{
+    }
+
+    50% {
         fill: #6c757d;
-    } 75% {
+    }
+
+    75% {
         fill: #fcdf3b;
-    } 100% {
+    }
+
+    100% {
         fill: #f48c06;
     }
 }
@@ -288,6 +310,7 @@ h2 {
     from {
         color: #143642;
     }
+
     to {
         color: white;
     }
@@ -329,7 +352,7 @@ h2 {
     font-family: "Gotham", "Helvetica";
 }
 
-#conteneur-mdp > p{
+#conteneur-mdp>p {
     margin-bottom: 4px;
 }
 
@@ -386,11 +409,13 @@ h2 {
     border-radius: 14px;
 }
 
-.num-pad:hover, #correction img:hover {
+.num-pad:hover,
+#correction img:hover {
     background-color: #B76935;
 }
 
-.num-pad:active, #correction img:active {
+.num-pad:active,
+#correction img:active {
     animation-name: anim-num-pad-active;
     animation-delay: 0s;
     animation-duration: 200ms;
@@ -400,6 +425,7 @@ h2 {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.3);
     }
@@ -412,7 +438,7 @@ h2 {
 
  */
 
-#correction img{
+#correction img {
     width: 50px;
     margin-top: 10px;
     border-radius: 25px;
@@ -457,7 +483,7 @@ h2 {
 
 */
 
-#contenu-apropos{
+#contenu-apropos {
     height: 750px;
     background-color: #143642;
     position: fixed;
@@ -468,40 +494,29 @@ h2 {
     z-index: 100;
 }
 
-#a-propos:focus, #contenu-apropos{
-    animation-name: "anim-apropos";
-    animation-duration: 1000ms;
-}
-
-@keyframes anim-apropos{
-    from{
-        transform : translateY(10px);
-    } to {
-        transform : translateY(50px);
-    }
-}
-
-#para1-apropos, #para2-apropos{
+#para1-apropos,
+#para2-apropos {
     font-family: "Gotham";
     width: 500px;
-    
+
 }
-#para1-apropos{
+
+#para1-apropos {
     margin: 2em 0 0 150px;
-}   
-
-#para2-apropos{
-    margin: 2em  0 0 800px;
 }
 
-#titre1-apropos{
+#para2-apropos {
+    margin: 2em 0 0 800px;
+}
+
+#titre1-apropos {
     margin: 1em 0 0 130px;
     border-bottom: solid 2px white;
     width: 300px;
 }
 
-#titre2-apropos{
-    margin: 2em  0 0 750px;
+#titre2-apropos {
+    margin: 2em 0 0 750px;
     border-bottom: solid 2px white;
     width: 300px;
 }
@@ -512,12 +527,12 @@ h2 {
 
  */
 
-#conteneur-avis{
+#conteneur-avis {
     background-color: #143642;
     color: white;
     padding: 3rem;
     font-family: "Gotham", "Helvetica";
-    margin: 5rem auto 0 auto;
+    margin: 3.5rem auto 0 auto;
     width: 550px;
     text-align: center;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
@@ -525,9 +540,9 @@ h2 {
     border: solid white 3px;
 }
 
-#pseudo{
+#pseudo {
     width: 149px;
-    margin: 15px auto 15px auto;
+    margin: 0 auto 15px auto;
     background: #B76935;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 33px;
@@ -535,10 +550,10 @@ h2 {
     padding: 7px;
 }
 
-#message{
+#message {
     height: 200px;
     width: 398px;
-    margin: 15px auto 15px auto;
+    margin: 0 auto 15px auto;
     background: #B76935;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 33px;
@@ -546,7 +561,8 @@ h2 {
     padding: 20px;
 }
 
-#pseudo:focus, #message:focus{
+#pseudo:focus,
+#message:focus {
     background-color: #143642;
     border: solid 1px white;
     color: white;

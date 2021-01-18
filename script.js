@@ -3,11 +3,11 @@ var lienApropos = document.getElementById("a-propos");
 var contenuApropos = document.getElementById("contenu-apropos");
 
 lienApropos.addEventListener("click", () => {
-	if(contenuApropos.style.visibility != "visible"){
+	if (contenuApropos.style.visibility != "visible") {
 		contenuApropos.style.visibility = "visible";
 	} else {
 		contenuApropos.style.visibility = "hidden";
-	}	
+	}
 });
 
 
@@ -29,12 +29,11 @@ var boutonValider = document.getElementById("valider");
 var mdpDefi1 = 399;
 var ctaNext = document.getElementById("cta-next-defi");
 
-boutonValider.addEventListener('click', function correctMdp(){
-	if(numMdp.value == mdpDefi1){
+boutonValider.addEventListener('click', function correctMdp() {
+	if (numMdp.value == mdpDefi1) {
 		alert("Le mot de passe est correct");
 		ctaNext.style.display = "block";
-	}
-	else {
+	} else {
 		alert("Le mot de passe est incorrect");
 	}
 });
@@ -43,23 +42,23 @@ boutonValider.addEventListener('click', function correctMdp(){
 //Je devrais utiliser une boucle forEach pour factoriser ce bout de code mais je n'ai pas réussi à la mettre en place
 var indices = [document.querySelector("#indice1"), document.querySelector("#indice2"), document.querySelector("#indice3")];
 
-setTimeout(function() {
+setTimeout(function () {
 	indices[0].style.display = "block";
-	}, 20000);
-setTimeout(function() {
+}, 20000);
+setTimeout(function () {
 	indices[0].style.display = "none";
 }, 25000);
 
-setTimeout(function() {
+setTimeout(function () {
 	indices[1].style.display = "block";
 }, 50000);
-setTimeout(function() {
+setTimeout(function () {
 	indices[1].style.display = "none";
 }, 55000);
 
-setTimeout(function() {
+setTimeout(function () {
 	indices[2].style.display = "block";
 }, 80000);
-setTimeout(function() {
+setTimeout(function () {
 	indices[2].style.display = "none";
 }, 85000);
